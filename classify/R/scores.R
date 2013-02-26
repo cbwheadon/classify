@@ -68,7 +68,7 @@ if (!inherits(x, "scores"))
 		p <- p + scale_linetype_manual(values=c(1,2,2),name="")
 
 		p <- p + scale_x_continuous(name="Summed score distribution")
-		p <- p + opts(legend.position='bottom')
+		p <- p + theme(legend.position='bottom')
 
 		print(p)
 

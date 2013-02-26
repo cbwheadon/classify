@@ -101,17 +101,9 @@ if (!inherits(x, "classification"))
 		meas <- as.character(unique(kappa.df$M2))
 		p <- p + scale_colour_identity() + scale_fill_gradientn(colours= c("grey", "white"), limits=c(0.25,0))
 		p <- p + scale_x_discrete(limits=meas) + scale_y_discrete(limits=meas)
-			
-		none <-  theme_blank()
-			
-		p <- p + xlab(NULL) + ylab(NULL) + 
-		opts(grid.colour = "red") +
-		opts(axis.ticks=none) + 
-		opts(panel.grid.major=theme_blank()) +
-		opts(legend.position='none')
-		
+		p <- p + xlab(NULL) + ylab(NULL)
+            p <- p + theme(axis.ticks=element_blank(),panel.grid.major=element_blank(),legend.position="none")
 		print(p)
-
 	} else if (type=="density"){
       	scores <- data.frame(score=rowSums(slot(x, "item.scores")))
 	    p <- ggplot(scores,aes(x=score))
