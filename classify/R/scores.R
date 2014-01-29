@@ -92,7 +92,7 @@ if (!inherits(x, "scores"))
 	}
   }
 
-scores.gpcm.bug <- function(item.scores,sims,mdl=c("rasch.bug", "pcm.bug", "tpl.bug", "gpcm.bug"), gibbs = c("bugs","jags")){
+scores.gpcm.bug <- function(item.scores,sims,mdl="rasch.bug", gibbs = "bugs"){
 	if(is.data.frame(item.scores))(item.scores <- as.matrix(item.scores))
 	if(!is.matrix(item.scores))(stop("Item Scores must be a matrix or data frame"))
 	mdl <- match.arg(mdl)
