@@ -76,6 +76,8 @@ Plummer, M (2012) Just Another Gibbs Sampler, version 3.2.0 http://mcmcjags.sour
 
 Swaminathan, H., Hambleton, R. K.,  Rogers, H. J. (2007) Assessing the fit of Item Response Theory models. In C. R. Rao, S. Sinharay (Eds.), \emph{Handbook of statistics, Vol. 26}, 683--718.
 
+Wheadon, C., (2014) Classification Accuracy and Consistency under Item Response Theory Models Using the Package classify, \emph{Journal of Statistical Software, 56(10)} 1--14.
+
 Wheadon, C., Stockford, I., (2011) Classification accuracy and consistency in GCSE and A level examinations offered by the Assessment and Qualifications Alliance (AQA) November 2008 to June 2009, \emph{Ofqual's Reliability Compendium}. Office of Qualification and Examinations Regulation.
 }
 \keyword{ package }

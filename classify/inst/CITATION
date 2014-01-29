@@ -1,0 +1,19 @@
+citHeader("To cite classify in publications use:")
+
+citEntry(entry = "Article",
+  title        = "Classification Accuracy and Consistency under Item Response Theory Models Using the Package {classify}",
+  author       = personList(as.person("Christopher Wheadon")),
+  journal      = "Journal of Statistical Software",
+  year         = "2014",
+  volume       = "56",
+  number       = "10",
+  pages        = "1--14",
+  url          = "http://www.jstatsoft.org/v56/i10/",
+
+  textVersion  =
+  paste("Christopher Wheadon (2014).",
+        "Classification Accuracy and Consistency under Item Response Theory Models Using the Package classify.",
+        "Journal of Statistical Software, 56(10), 1-14.",
+        "URL http://www.jstatsoft.org/v56/i10/.")
+)
+

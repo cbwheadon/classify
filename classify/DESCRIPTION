@@ -1,8 +1,8 @@
 Package: classify
 Type: Package
 Title: Classification Accuracy and Consistency under IRT models.
-Version: 1.1
-Date: 2013-02-26
+Version: 1.2
+Date: 2014-01-29
 Author: Dr Chris Wheadon and Dr Ian Stockford
 Maintainer: Dr Chris Wheadon <chris.wheadon@gmail.com>
 Description: IRT classification uses the probability that candidates of
