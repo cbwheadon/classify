@@ -26,9 +26,9 @@ Imports:
     plyr,
     ggplot2,
     lattice,
-    reshape2,
     methods,
-    R2jags
+    R2jags,
+    reshape2
 Suggests: R2WinBUGS
 LinkingTo: Rcpp
 Packaged: 2012-08-22 16:52:09 UTC; ubuntu
