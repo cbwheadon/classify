@@ -3,7 +3,8 @@ beta.list <- function(v) {
 	lapply(1:p, function(j) c(v[grep(paste("beta\\[", j, ",[[:digit:]]+\\]", sep=""), names(v))]))
 }
 
-gpcm.bug <- function(v,cats,mdl,gibbs="bugs"){
+gpcm.bug <- function(v,cats,mdl,gibbs=c("bugs","jags")){
+  gibbs <- match.arg(gibbs)
 	# All models have theta
 	theta.pars <- v[grep("theta", names(v))]
 	# Models with alpha

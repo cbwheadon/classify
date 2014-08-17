@@ -5,7 +5,9 @@
 Obtains the predicted number-correct score distribution from the IRT models specified in the bugs files pcm.bug, gpcm.bug, rasch.bug, tpl.bug.
 }
 \usage{
-scores.gpcm.bug(item.scores,sims,mdl = c("rasch.bug", "pcm.bug", "tpl.bug","gpcm.bug"), gibbs = "bugs")
+scores.gpcm.bug(item.scores,sims,
+  mdl = c("rasch.bug", "pcm.bug", "tpl.bug","gpcm.bug"),
+  gibbs = c("bugs","jags"))
 }
 \arguments{
   \item{item.scores}{Matrix of item scores, one candidate per row.}

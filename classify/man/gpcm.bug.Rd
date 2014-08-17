@@ -7,7 +7,7 @@ Extract IRT Model Parameters from Bugs Models
 Internal function which draws heavily on Curtis, S.M.(2010).
 }
 \usage{
-gpcm.bug(v, cats, mdl, gibbs="bugs")
+gpcm.bug(v, cats, mdl, gibbs=c("bugs","jags"))
 }
 \arguments{
   \item{v}{Bugs sims matrix}
